@@ -1,4 +1,4 @@
-# Fines-migration permeability decline — RSM and GMDH models
+# Fines-migration permeability decline (RSM and GMDH models)
 
 Reproducibility code for the hybrid-RSM and GMDH models used to predict
 fines-migration-induced permeability decline in sandstone reservoirs.
