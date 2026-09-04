@@ -19,14 +19,14 @@ including zeta potential; GMDH uses the reduced 5-feature set).
 ### Python (RSM)
 ```
 pip install -r requirements.txt
-cd scripts
+cd rsm
 python rsm_hybrid_model.py
 ```
 
 ### MATLAB (GMDH)
 Requires the GMDH toolbox functions `gmdhbuild`, `gmdhpredict`, and `gmdheq` —
-Run from the `gmdh/` or `gmdh_functions/`  directory with
-`data/MASTER_Train_Data.csv` and `data/MASTER_Test_Data.csv` on the MATLAB path.
+Run from the `gmdh/` or `gmdh functions/`  directory with
+`gmdh/MASTER_Train_Data.csv` and `gmdh/MASTER_Test_Data.csv` on the MATLAB path.
 ```
 GMDH_Master_Script
 ```
@@ -52,11 +52,11 @@ the GMDH-type Polynomial Neural Networks toolbox for MATLAB by Gints Jekabsons:
 > available at http://www.cs.rtu.lv/jekabsons/
 
 We thank the author for making this toolbox available. See
-`gmdh_functions/` for the toolbox files and their original license.
+`gmdh functions/` for the toolbox files and their original license.
 
 ## License
 
 Code written for this repository (the RSM and GMDH driver scripts) is released
 under the MIT License (see `LICENSE`). The GMDH toolbox files under
-`gmdh_functions` are third-party software by Gints Jekabsons, licensed
+`gmdh functions` are third-party software by Gints Jekabsons, licensed
 under the GNU General Public License v2 (or later)
